@@ -1,0 +1,102 @@
+{
+  "Australia.svg": "/Australia-2Ym.svg",
+  "RootCmp_CMS_PAGE__default.js": "/RootCmp_CMS_PAGE__default.ffa2f5b35b2a1e4e55b9.js",
+  "RootCmp_NOTFOUND__default.js": "/RootCmp_NOTFOUND__default.f7e330251e3b2027603e.js",
+  "RootCmp_PRODUCT__default.js": "/RootCmp_PRODUCT__default.7e3e0f6c9b226a5265f5.js",
+  "RootCmp_SEARCH__default.js": "/RootCmp_SEARCH__default.18270521c659283950cf.js",
+  "afterpay-header.svg": "/afterpay-header-u4e.svg",
+  "afterpay.svg": "/afterpay-oJa.svg",
+  "apple-pay.svg": "/apple-pay-nVy.svg",
+  "applepay.svg": "/applepay-x3z.svg",
+  "ausflag.svg": "/ausflag-6AB.svg",
+  "client.js": "/client.3b497ec4cfb72c5f46c1.js",
+  "entrypoints": {
+    "client": {
+      "js": [
+        "/runtime.d662c150a0c1ae4b6343.js",
+        "/vendors.553a1ac50d7789bda758.js",
+        "/client.3b497ec4cfb72c5f46c1.js"
+      ]
+    }
+  },
+  "google-pay.svg": "/google-pay-gVq.svg",
+  "googlepay.svg": "/googlepay-2Rq.svg",
+  "image-placeholder.jpg": "/image-placeholder-sGJ.jpg",
+  "kings-logo.svg": "/kings-logo-pRz.svg",
+  "logo.svg": "/logo-n3i.svg",
+  "mastercard-icon.svg": "/mastercard-icon-4fN.svg",
+  "mastercard.svg": "/mastercard-dno.svg",
+  "paypal-header.svg": "/paypal-header-3Ew.svg",
+  "paypal-icon.svg": "/paypal-icon-3HF.svg",
+  "paypal.svg": "/paypal-hYC.svg",
+  "runtime.js": "/runtime.d662c150a0c1ae4b6343.js",
+  "strapline.svg": "/strapline-m8G.svg",
+  "vendors.js": "/vendors.553a1ac50d7789bda758.js",
+  "vendors~RootCmp_CATEGORY__default.js": "/vendors~RootCmp_CATEGORY__default.f203d0040a47a37b1861.js",
+  "visa-icon.svg": "/visa-icon-5tj.svg",
+  "visa.svg": "/visa-gSu.svg",
+  "zip-icon.svg": "/zip-icon-f5z.svg",
+  "zip.svg": "/zip-n4j.svg",
+  "zipmoney_primary.svg": "/zipmoney_primary-2GS.svg",
+  "zippay-header.svg": "/zippay-header-scA.svg",
+  "zippay.png": "/zippay-vux.png",
+  "zippay_primary.svg": "/zippay_primary-f7e.svg",
+  "zp-icon-clock.svg": "/zp-icon-clock-umP.svg",
+  "zp-icon-tick.svg": "/zp-icon-tick-9Mn.svg",
+  "bundles": {
+    "load": [
+      "/runtime.d662c150a0c1ae4b6343.js",
+      "/vendors.553a1ac50d7789bda758.js",
+      "/client.3b497ec4cfb72c5f46c1.js"
+    ],
+    "prefetch": [
+      "/RootCmp_CMS_PAGE__default.ffa2f5b35b2a1e4e55b9.js",
+      "/RootCmp_NOTFOUND__default.f7e330251e3b2027603e.js",
+      "/RootCmp_PRODUCT__default.7e3e0f6c9b226a5265f5.js",
+      "/RootCmp_SEARCH__default.18270521c659283950cf.js"
+    ]
+  },
+  "svg": {
+    "Australia": "/Australia-2Ym.svg",
+    "afterpay-header": "/afterpay-header-u4e.svg",
+    "afterpay": "/afterpay-oJa.svg",
+    "apple-pay": "/apple-pay-nVy.svg",
+    "applepay": "/applepay-x3z.svg",
+    "ausflag": "/ausflag-6AB.svg",
+    "google-pay": "/google-pay-gVq.svg",
+    "googlepay": "/googlepay-2Rq.svg",
+    "kings-logo": "/kings-logo-pRz.svg",
+    "logo": "/logo-n3i.svg",
+    "mastercard-icon": "/mastercard-icon-4fN.svg",
+    "mastercard": "/mastercard-dno.svg",
+    "paypal-header": "/paypal-header-3Ew.svg",
+    "paypal-icon": "/paypal-icon-3HF.svg",
+    "paypal": "/paypal-hYC.svg",
+    "strapline": "/strapline-m8G.svg",
+    "visa-icon": "/visa-icon-5tj.svg",
+    "visa": "/visa-gSu.svg",
+    "zip-icon": "/zip-icon-f5z.svg",
+    "zip": "/zip-n4j.svg",
+    "zipmoney_primary": "/zipmoney_primary-2GS.svg",
+    "zippay-header": "/zippay-header-scA.svg",
+    "zippay_primary": "/zippay_primary-f7e.svg",
+    "zp-icon-clock": "/zp-icon-clock-umP.svg",
+    "zp-icon-tick": "/zp-icon-tick-9Mn.svg"
+  },
+  "js": {
+    "RootCmp_CMS_PAGE__default": "/RootCmp_CMS_PAGE__default.ffa2f5b35b2a1e4e55b9.js",
+    "RootCmp_NOTFOUND__default": "/RootCmp_NOTFOUND__default.f7e330251e3b2027603e.js",
+    "RootCmp_PRODUCT__default": "/RootCmp_PRODUCT__default.7e3e0f6c9b226a5265f5.js",
+    "RootCmp_SEARCH__default": "/RootCmp_SEARCH__default.18270521c659283950cf.js",
+    "client": "/client.3b497ec4cfb72c5f46c1.js",
+    "runtime": "/runtime.d662c150a0c1ae4b6343.js",
+    "vendors": "/vendors.553a1ac50d7789bda758.js",
+    "vendors~RootCmp_CATEGORY__default": "/vendors~RootCmp_CATEGORY__default.f203d0040a47a37b1861.js"
+  },
+  "jpg": {
+    "image-placeholder": "/image-placeholder-sGJ.jpg"
+  },
+  "png": {
+    "zippay": "/zippay-vux.png"
+  }
+}

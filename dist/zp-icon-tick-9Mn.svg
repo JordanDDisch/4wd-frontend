@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Pictorial/64px/get-approval Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="15" height="30"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2-Copy-4" transform="translate(-55.000000, -280.000000)">
+            <g id="Group-6" transform="translate(55.000000, 262.000000)">
+                <g id="Pictorial/64px/get-approval-Copy-2" transform="translate(0.000000, 18.000000)">
+                    <circle id="Oval" fill-opacity="0.9" fill="#A8C6F9" cx="15" cy="15" r="15"></circle>
+                    <g id="Pictorial/64px/get-approval-Copy" stroke-width="1" transform="translate(15.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g mask="url(#mask-2)" fill="#518EF3" id="Oval" opacity="0.9">
+                            <g transform="translate(-15.000000, 0.000000)">
+                                <circle cx="15" cy="15" r="15"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M12.3526179,17.7025209 L20.8335386,9.22160024 C21.6415199,8.41361894 22.9515164,8.41361894 23.7594977,9.22160024 C24.567479,10.0295815 24.567479,11.339578 23.7594977,12.1475593 L14.068053,21.839004 C14.0003081,21.9352794 13.9233901,22.0270699 13.837299,22.113161 C13.2840012,22.6664587 12.4952896,22.8408636 11.7935824,22.6363755 C11.4580336,22.5447608 11.1410527,22.3671718 10.8774894,22.1036085 C10.8133032,22.0394222 10.7542159,21.9720679 10.7002276,21.9020488 L6.11815196,17.3199731 C5.31017067,16.5119918 5.31017067,15.2019953 6.11815196,14.394014 C6.92613325,13.5860327 8.23612976,13.5860327 9.04411106,14.394014 L12.3526179,17.7025209 Z" id="Combined-Shape" fill="#FFFFFF" opacity="0.708865489"></path>
+                    <path d="M12.3526179,17.7025209 L13.837299,19.1872019 C14.5591891,19.9090921 14.6361072,21.0317166 14.068053,21.839004 L13.8034485,22.1036085 C13.2590305,22.6480265 12.4866942,22.8256155 11.7935824,22.6363755 C11.4705858,22.5422494 11.1660234,22.3678446 10.9113399,22.113161 L10.7002276,21.9020488 C10.0746071,21.0906623 10.1336944,19.9214444 10.8774894,19.1776494 L12.3526179,17.7025209 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

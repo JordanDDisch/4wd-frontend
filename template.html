@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-image-optimizing-origin="<%= process.env.IMAGE_OPTIMIZING_ORIGIN %>" data-media-backend="<%= global.MAGENTO_MEDIA_BACKEND_URL %>">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#D7000E">
+
+        <link rel="manifest" href="/manifest.json">
+
+        <title>Home Page - <%= STORE_NAME %></title>
+        <link rel="icon" href="/favicon.png" type="image/x-icon">
+
+        <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
+        <script>window.LogRocket && window.LogRocket.init('evdwrg/frontend-4wdsupacentre');</script>
+
+        <!-- Page hiding snippet (recommended)  -->
+        <style>.async-hide { opacity: 0 !important} </style>
+        <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+        h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document.documentElement,'async-hide','dataLayer',4000,
+        {'GTM-NFZWQV2':true});</script>
+
+        <!-- Modified Analytics tracking code with Optimize plugin -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-43017854-1', 'auto');
+            ga('require', 'GTM-NFZWQV2');
+            // GTM sends the page view
+        </script>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K3HFT4D');</script>
+        <!-- End Google Tag Manager -->
+        
+        <!-- Google Structured Data -->
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "https://www.4wdsupacentre.com.au",
+            "logo": "https://www.4wdsupacentre.com.au/skin/frontend/supacentre-responsive/default/images/logo.png",
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "+61800883964",
+                "contactType": "customer support",
+                "areaServed": "AU",
+                "contactOption": "TollFree"
+            }],
+            "sameAs": [
+                "https://facebook.com/4WDSupacentre/",
+                "https://twitter.com/4WD_Supacentre",
+                "https://youtube.com/user/the4wdsupacentre",
+                "https://www.linkedin.com/company/4wd-supacentre/",
+                "https://plus.google.com/+4wdsupacentreAu"
+            ]
+            }
+        </script>
+        <!-- End Google Structured Data -->
+
+        <!--
+            Apple Specific Tags
+
+            To be included until Safari supports WebAppManifest
+            See Docs:
+            - https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
+            - https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html
+        -->
+        <!--
+            Apple Icons for Homescreen
+            Sizes: https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/
+        -->
+        <link rel="apple-touch-icon" href="/icons/4WD_57.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+        <link rel="preconnect" href="<%= process.env.MAGENTO_BACKEND_URL %>">
+        <style type="text/css">
+            /* open-sans-condensed-300 - latin */
+            @font-face {
+                font-family: 'Open Sans Condensed';
+                font-style: normal;
+                font-weight: 300;
+                src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'),
+                    url('/fonts/open-sans-condensed-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+                    url('/fonts/open-sans-condensed-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+                    url('/fonts/open-sans-condensed-v15-latin-300.svg#OpenSansCondensed')
+            }
+            /* open-sans-condensed-700 - latin */
+            @font-face {
+                font-family: 'Open Sans Condensed';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'),
+                    url('/fonts/open-sans-condensed-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+                    url('/fonts/open-sans-condensed-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+                    url('/fonts/open-sans-condensed-v15-latin-700.svg#OpenSansCondensed') 
+            }
+            /* open-sans-regular - latin */
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Open Sans Regular'), local('OpenSans-Regular'),
+                    url('/fonts/open-sans-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+                    url('/fonts/open-sans-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+                    url('/fonts/open-sans-v18-latin-regular.svg#OpenSans')
+            }
+            /* open-sans-600 - latin */
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+                    url('/fonts/open-sans-v18-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+                    url('/fonts/open-sans-v18-latin-600.woff') format('woff'), /* Modern Browsers */
+                    url('/fonts/open-sans-v18-latin-600.svg#OpenSans')
+            }
+            /* open-sans-700 - latin */
+            @font-face {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Open Sans Bold'), local('OpenSans-Bold'),
+                    url('/fonts/open-sans-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+                    url('/fonts/open-sans-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+                    url('/fonts/open-sans-v18-latin-700.svg#OpenSans')
+            }
+          </style>
+
+        <!-- TrustBox script -->
+        <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+        <!-- End TrustBox script -->
+    </head>
+    <body>
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3HFT4D"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+       <div id="root" />
+
+        <!-- Fallback for when JavaScript is disabled. -->
+        <noscript>
+            <style>
+                .fallback-nojs {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .fallback-nojs a {
+                    color: currentColor;
+                }
+                .fallback-closed {
+                    height: 40vh;
+                }
+            </style>
+            <div class="fallback-nojs">
+                <h1 class="fallback-heading">Oops! JavaScript is disabled</h1>
+                <div>
+                  To browse the Venia store,<br>
+                  <a href="https://www.enable-javascript.com">enable JavaScript in your browser.</a>
+                </div>
+            </div>
+        </noscript>
+    </body>
+</html>
