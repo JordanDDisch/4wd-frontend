@@ -18836,9 +18836,9 @@ sugarss@^2.0.0:
   dependencies:
     postcss "^7.0.2"
 
-"supacentre-pwa@git+ssh://git@bitbucket.org:expgroup/supacentre-js-frontend.git#0.0.6":
-  version "0.0.6"
-  resolved "git+ssh://git@bitbucket.org:expgroup/supacentre-js-frontend.git#f61b65b8527bef1c7baa72901fbab4319a0a468e"
+"supacentre-pwa@https://github.com/JordanDDisch/4wd-netlify#M2X-1356":
+  version "0.0.3"
+  resolved "https://github.com/JordanDDisch/4wd-netlify#ee991b0a43bdab73363de658c9cf1c7aa4fea585"
   dependencies:
     "@aligent/stylelint-preset" "^1.3.1"
     "@aligent/utils" "^1.1.1"
